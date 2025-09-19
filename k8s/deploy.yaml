@@ -4,7 +4,7 @@ metadata:
   name: reeve-micro
   labels:
     app: reeve-micro
-  namespace: raman
+  namespace: reeve
 spec:
   replicas: 1
   selector:
