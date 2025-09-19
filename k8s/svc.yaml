@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: raman-micro
+  name: reeve-micro
   namespace: raman
 spec:
   selector:
-    app: raman-micro
+    app: reeve-micro
   ports:
     - protocol: TCP
       port: 80
